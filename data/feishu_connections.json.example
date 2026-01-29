@@ -1,0 +1,10 @@
+{
+  "your_table_id": {
+    "app_token": "your_feishu_app_token",
+    "table_id": "your_table_id",
+    "app_id": "cli_your_app_id",
+    "app_secret": "your_app_secret",
+    "tenant_access_token": "auto_generated_token",
+    "drive_folder_token": "optional_drive_folder_token"
+  }
+}

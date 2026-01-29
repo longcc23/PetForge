@@ -1,0 +1,82 @@
+Generate a wide-angle landscape photograph (16:9 aspect ratio) serving as a YouTube mukbang opening scene.
+
+CRITICAL: This is a PHOTOGRAPH only. Do NOT add any text, watermarks, words, or written descriptions to the image itself. All text descriptions are for theme guidance only.
+
+## CORE ELEMENTS (Fixed)
+
+- **Aspect Ratio**: 16:9 (1920x1080)
+- **Pet Position**: Centered in the frame, sitting upright like a human at a wooden dining table
+- **Pet Posture**: Upright, anthropomorphic sitting position, both paws visible on or near the table
+- **Pet Expression**: Incredibly cute, relaxed, friendly - soft eyes, adorable expression
+- **Reference Consistency**: Maintain the pet's distinctive features from the reference image (breed, fur color, patterns, markings, facial features, proportions)
+- **Microphone Details**: A tiny, miniature black lavalier microphone with a very small black foam windscreen is clipped centrally to the pet's chest fur (just below any collar or clothing). It should be scaled down appropriately for a small animal, appearing unobtrusive. A very thin black audio cable runs from the microphone down towards the table surface.
+
+## CUSTOMIZABLE ELEMENTS (User Input or Auto-Generated)
+
+The following elements can be customized by the user. If not specified, use popular/default options:
+
+1. **Pet Accessories/Clothing**: {pet_accessories}
+   - Description of what the pet is wearing (hats, vests, collars, etc.) beyond the fixed microphone.
+   - If empty, use popular options like: cute miniature accessories, small decorative items, or simple collar
+
+2. **Food Theme**: {food_theme}
+   - Overall culinary theme/cuisine type
+   - If empty, use popular themes like: "Traditional Japanese Cuisine Feast", "Western Comfort Food", "Korean BBQ Feast", etc.
+
+3. **Specific Food Items**: {food_items}
+   - List of 3-5 specific dishes that match the food theme
+   - Must be culturally consistent with the theme
+   - If empty, generate popular items matching the theme
+
+4. **Background Decorations**: {background_decor}
+   - Specific background decoration details
+   - If empty, use cozy streamer room elements: shelves with cute items, warm fairy lights, decorative posters, etc.
+
+## COMPOSITION REQUIREMENTS
+
+- **Table**: Foreground, wooden dining table, clear surface with food arranged neatly
+- **Food Arrangement**: 
+  - Overflowing with a cohesive, culturally consistent spread
+  - Items arranged clearly (left, center, right positions should be distinguishable)
+  - All food items FULLY VISIBLE within frame - no cropping at edges
+  - All food items visually appealing and clearly identifiable
+  - Ensure no conflicting food items from other culinary traditions are present
+- **Lighting**: Soft, warm, professional studio lighting that highlights:
+  - Appetizing textures of the food
+  - The pet's fur details
+  - Overall warm, inviting atmosphere
+- **Background**: Cozy, decorated streamer room filled with theme-appropriate decorations, gently reflecting the overall theme
+
+## STYLE & ATMOSPHERE
+
+- **Overall Style**: Cute, warm, cozy, inviting, professional mukbang scene
+- **Color Palette**: Warm tones, gentle colors that enhance the cozy feeling
+- **Mood**: Happy, welcoming, content - perfect for a mukbang video opening
+- **Quality**: High resolution, sharp, clear details, professional photography quality
+
+## NEGATIVE PROMPT ELEMENTS (Avoid)
+
+- CRITICAL: NO text, watermarks, words, or written descriptions on the image
+- NO cropped or partially cut-off food items at the edges
+- Blurry or low-quality images
+- Distorted proportions or unnatural poses
+- Aggressive or unhappy expressions
+- Cluttered or messy backgrounds
+- Poor lighting or dark scenes
+- Unclear or indistinguishable food items
+- Conflicting food items from different culinary traditions
+- Inconsistent cultural themes
+- Missing microphone
+- Oversized microphone
+
+## FINAL PROMPT TEMPLATE
+
+A wide-angle landscape photograph (16:9 aspect ratio) serving as a YouTube mukbang opening scene. The cute pet from the reference image, wearing {pet_accessories} and sporting a tiny, miniature black lavalier microphone with a small foam windscreen clipped centrally to its chest fur (just below its collar/clothing), sits upright like a human at a wooden dining table. A very thin audio cable runs from the tiny microphone down to the table.
+
+The table is overflowing with a cohesive, culturally consistent spread of {food_theme}.
+
+The specific dishes arranged neatly on the table include ONLY items belonging to this theme, consisting of: {food_items}. Ensure no conflicting food items from other culinary traditions are present.
+
+Soft, warm, professional studio lighting highlights the appetizing textures of the food, the pet's fur, and the details of the tiny microphone. The background is a cozy, decorated streamer room filled with {background_decor}, gently reflecting the theme.
+
+The pet maintains absolute visual consistency with the reference image, preserving all distinctive features. The scene is cute, warm, and cozy with perfect mukbang video opening atmosphere.

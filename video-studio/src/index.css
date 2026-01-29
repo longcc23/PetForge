@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* Custom styles following DESIGN_SYSTEM.md */
+:root {
+  --primary-pink-400: #f472b6;
+  --primary-pink-500: #ec4899;
+  --primary-rose-400: #fb7185;
+  --primary-rose-500: #f43f5e;
+}
+
+body {
+  margin: 0;
+  font-family: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}

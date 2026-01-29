@@ -1,0 +1,110 @@
+### PART 1: VISUAL & PROXIMITY ANALYSIS
+
+> **Visual Analysis**: Subject is an orange tabby cat. Left Static Anchor: KFC-style bucket with chick-buns and hanging blue plush hood. Right Static Anchor: Tall blue drink topped with pineapple and hanging Christmas stockings. Center: Plate of cat-themed canelé cakes.
+>
+> **Proximity Check**: Closest items are the Center Cakes and Left Chicken Bucket. The Right Drink is also reachable. Items on the back shelves (plushies, wreath) are too far in the background and are REJECTED to prevent arm distortion.
+>
+> **Audio Logic**:
+> *   **Fried Chicken**: Crispy, oily skin. Sound keywords: Loud Crunch, Crackle, Snap.
+> *   **Cakes**: Dense, soft sponge. Sound keywords: Wet Squish, Soft Chewing, Muffled Munch.
+> *   **Blue Drink**: Icy liquid. Sound keywords: Slurp, Gulp, Straw Noise.
+
+---
+
+### PART 2: STORYBOARD SCRIPT
+
+```json
+[
+  {
+    "segment_index": 0,
+    "segment_type": "intro",
+    "food_item": null,
+    "crucial": "An orange tabby cat sits at a table. Crucially, the fried chicken bucket is visible on the left, and the blue drink is visible on the right. Camera is LOCKED/STATIC. Lighting is warm golden.",
+    "crucial_zh": "一只橘猫坐在桌前。关键是左边可见炸鸡桶，右边可见蓝色饮料。摄像机锁定/静止。灯光温暖金黄。",
+    "action": "The cat looks at the lens. First, it raises one paw to wave hello. Then, it brings BOTH paws to its cheeks to gently squish its face. Finally, it puts paws down, tilts head left and right rhythmically, and opens mouth for a meow.",
+    "action_zh": "猫看着镜头。首先，它举起一只爪子挥手打招呼。然后，它把两只爪子放在脸颊上轻轻挤压脸部。最后，它放下爪子，有节奏地左右歪头，张嘴喵喵叫。",
+    "negative_constraint": "No morphing, no disappearing objects, no eating yet.",
+    "negative_constraint_zh": "无变形，无物体消失，暂不进食。",
+    "sound": "Cute meow, soft rustle of movement. NO background music.",
+    "sound_zh": "可爱的喵喵声，轻微的动作沙沙声。无背景音乐。"
+  },
+  {
+    "segment_index": 1,
+    "segment_type": "eating",
+    "food_item": "Fried Chicken Drumstick",
+    "crucial": "An orange tabby cat sits at a table. Crucially, the fried chicken bucket is visible on the left, and the blue drink is visible on the right. Camera is LOCKED/STATIC.",
+    "crucial_zh": "一只橘猫坐在桌前。关键是左边可见炸鸡桶，右边可见蓝色饮料。摄像机锁定/静止。",
+    "action": "The cat uses one paw to bring a piece of fried chicken from the left bucket towards the camera. It takes a large bite of the crispy skin.",
+    "action_zh": "猫用一只爪子从左边的桶里拿出一块炸鸡朝向镜头。它大口咬下酥脆的鸡皮。",
+    "negative_constraint": "No reaching for background shelves. No distorted paws.",
+    "negative_constraint_zh": "禁止够背景架子。无扭曲的爪子。",
+    "sound": "Loud Crunch, Crackle, Greasy snapping sound.",
+    "sound_zh": "响亮的咔嚓声，碎裂声，油腻的咬断声。"
+  },
+  {
+    "segment_index": 2,
+    "segment_type": "eating",
+    "food_item": "Chick-shaped Bun",
+    "crucial": "An orange tabby cat sits at a table. Crucially, the fried chicken bucket is visible on the left, and the blue drink is visible on the right. Camera is LOCKED/STATIC.",
+    "crucial_zh": "一只橘猫坐在桌前。关键是左边可见炸鸡桶，右边可见蓝色饮料。摄像机锁定/静止。",
+    "action": "The cat picks up a round, yellow chick-shaped bun from the bucket. It brings it close to the lens and eats it whole in two quick bites.",
+    "action_zh": "猫从桶里拿起一个圆形的黄色小鸡造型面包。它将其拿到镜头前，分两口快速吃掉。",
+    "negative_constraint": "No morphing of the chick face before eating.",
+    "negative_constraint_zh": "吃之前小鸡脸部禁止变形。",
+    "sound": "Soft bread tearing, muffled chewing, doughy texture sound.",
+    "sound_zh": "软面包撕裂声，沉闷的咀嚼声，面团质感音效。"
+  },
+  {
+    "segment_index": 3,
+    "segment_type": "eating",
+    "food_item": "Dark Canelé Cake",
+    "crucial": "An orange tabby cat sits at a table. Crucially, the fried chicken bucket is visible on the left, and the blue drink is visible on the right. Camera is LOCKED/STATIC.",
+    "crucial_zh": "一只橘猫坐在桌前。关键是左边可见炸鸡桶，右边可见蓝色饮料。摄像机锁定/静止。",
+    "action": "The cat reaches for the dark brown canelé cake on the center plate. It holds it with both paws and nibbles the top.",
+    "action_zh": "猫伸手去拿中间盘子里的深褐色可丽露蛋糕。它用两只爪子捧着，啃咬顶部。",
+    "negative_constraint": "No moving the plate significantly. No sliding table.",
+    "negative_constraint_zh": "禁止大幅移动盘子。禁止滑动桌子。",
+    "sound": "Dense chewing, slight sticky smack, soft thud.",
+    "sound_zh": "紧实的咀嚼声，轻微的粘滞声，柔和的撞击声。"
+  },
+  {
+    "segment_index": 4,
+    "segment_type": "eating",
+    "food_item": "White Cream Cake",
+    "crucial": "An orange tabby cat sits at a table. Crucially, the fried chicken bucket is visible on the left, and the blue drink is visible on the right. Camera is LOCKED/STATIC.",
+    "crucial_zh": "一只橘猫坐在桌前。关键是左边可见炸鸡桶，右边可见蓝色饮料。摄像机锁定/静止。",
+    "action": "The cat targets the small white cake with the ribbon decoration in the center. It licks the cream frosting first, then takes a bite.",
+    "action_zh": "猫瞄准中间带有丝带装饰的小白蛋糕。它先舔了舔奶油糖霜，然后咬了一口。",
+    "negative_constraint": "No messy face, cream stays on cake until eaten.",
+    "negative_constraint_zh": "脸部不要太脏，奶油在吃之前保持在蛋糕上。",
+    "sound": "Wet licking, soft squish, creamy texture sound.",
+    "sound_zh": "湿润的舔舐声，软绵的挤压声，奶油质感音效。"
+  },
+  {
+    "segment_index": 5,
+    "segment_type": "eating",
+    "food_item": "Blue Drink",
+    "crucial": "An orange tabby cat sits at a table. Crucially, the fried chicken bucket is visible on the left, and the blue drink is visible on the right. Camera is LOCKED/STATIC.",
+    "crucial_zh": "一只橘猫坐在桌前。关键是左边可见炸鸡桶，右边可见蓝色饮料。摄像机锁定/静止。",
+    "action": "The cat leans towards the tall blue drink on the right. It laps at the whipped topping and takes a sip from the rim.",
+    "action_zh": "猫向右边的高蓝色饮料倾身。它舔食上面的搅打奶油，并从杯沿喝了一口。",
+    "negative_constraint": "No spilling, no knocking over the glass.",
+    "negative_constraint_zh": "禁止洒出，禁止打翻杯子。",
+    "sound": "Fast lapping, slurping, liquid gulp.",
+    "sound_zh": "快速舔食声，吸溜声，液体吞咽声。"
+  },
+  {
+    "segment_index": 6,
+    "segment_type": "outro",
+    "food_item": null,
+    "crucial": "An orange tabby cat sits at a table. Crucially, the fried chicken bucket is visible on the left, and the blue drink is visible on the right. Camera is LOCKED/STATIC.",
+    "crucial_zh": "一只橘猫坐在桌前。关键是左边可见炸鸡桶，右边可见蓝色饮料。摄像机锁定/静止。",
+    "action": "The cat slowly lowers its upper body and rests its chin gently on its front paws on the table. It looks at the lens with heavy eyelids and blinks slowly.",
+    "action_zh": "猫慢慢放低上半身，将下巴轻轻搁在桌上的前爪上。它眼皮沉重地看着镜头，缓慢眨眼。",
+    "negative_constraint": "No purring sound. No sudden movements.",
+    "negative_constraint_zh": "无呼噜声。无突然动作。",
+    "sound": "Soft rustle of fur settling. Cute breathy exhale. NO music.",
+    "sound_zh": "毛发沉降的轻微沙沙声。可爱的呼吸声。无音乐。"
+  }
+]
+```

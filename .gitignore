@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Database (but allow paretoai.db for backup)
+*.sqlite
+*.sqlite3
+# *.db  # Commented out to allow paretoai.db
+
+# Output & Temporary files
+output/*.json
+output/*.jsonl
+output/*.html
+# data/uploads/  # Commented out to allow projects backup
+data/history/
+data/sessions/
+*.tmp
+*.bak
+*.backup
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.next/
+dist/
+build/
+
+# Media files (examples)
+# *.mp4  # Commented out to allow video backup
+*.avi
+*.mov
+# Allow images in specific directories
+*.jpg
+*.png
+*.gif
+!docs/assets/*
+!data/uploads/projects/**/*.jpg
+!data/uploads/projects/**/*.png
+
+# Reports
+reports/
+
+# Storage state (sensitive)
+storage_state.json
